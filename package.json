@@ -1,0 +1,24 @@
+{
+	"name": "broccoli-simple-setup",
+	"version": "1.0.0",
+	"description": "A simple setup with broccoli",
+	"main": "index.js",
+	"repository": "https://github.com/mikeludemann/broccoli-simple-setup.git",
+	"author": "Mike Ludemann <mike-ludemann@hotmail.de>",
+	"license": "MIT",
+	"scripts": {
+		"build": "rm -rf dist/ && broccoli build dist",
+		"serve": "broccoli serve"
+	},
+	"private": false,
+	"devDependencies": {
+		"broccoli": "^3.4.1",
+		"broccoli-babel-transpiler": "^7.4.0",
+		"broccoli-cli": "^1.0.0",
+		"broccoli-merge-trees": "^4.2.0",
+		"broccoli-source": "^3.0.0",
+		"broccoli-watchify": "^2.0.0",
+		"jquery": "^3.4.1",
+		"sass": "^1.26.3"
+	}
+}
